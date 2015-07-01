@@ -1,0 +1,140 @@
+body{
+  text-align: center;
+
+}
+
+#container{
+  border: 2px solid grey;
+  width: 400px;
+  height:300px;
+  margin: 50px auto;
+  position: relative;
+  border-radius: 5px;
+  background-color:	rgb(232,232,232);
+
+}
+
+#clear{
+  display: inline-block;
+  width: 60px;
+  height:30px;
+  left: 20px;
+  top: 20px;
+  border: 1px solid grey;
+  font-size: 20px;
+  position: absolute;
+  padding-top: 8px;
+  background:red;
+  font-weight: bold;
+  color:white;
+  opacity: 0.78;
+  border-radius: 4px;
+}
+
+#display{
+  display: inline-block;
+  width: 250px;
+  height:30px;
+  right: 20px;
+  top: 20px;
+  border: 1px solid grey;
+  font-size: 22px;
+  position: absolute;
+  text-align: right;
+  padding-right: 10px;
+  padding-top: 8px;
+  background-color: white;
+}
+
+.number, .oper{
+  width: 60px;
+  font-size: 25px;
+  color:black;
+  display:inline-block;
+  position:absolute;
+}
+
+#one{
+  right:250px;
+  top:80px;
+}
+
+#two{
+  right:180px;
+  top:80px;
+}
+
+#three{
+  right:110px;
+  top:80px;
+}
+
+#four{
+  right:250px;
+  top:130px;
+}
+
+#five{
+  right:180px;
+  top:130px;
+}
+
+#six{
+  right:110px;
+  top:130px;
+}
+
+#seven{
+  right:250px;
+  top:180px;
+}
+
+#eight{
+  right:180px;
+  top:180px;
+}
+
+#nine{
+  right:110px;
+  top:180px;
+}
+
+#zero{
+  right:250px;
+  top:230px;
+}
+
+#point{
+  right:180px;
+  top:230px;
+}
+
+#equal{
+  right:110px;
+  top:230px;
+  background-color:rgb(210,232,255);
+}
+
+#divide{
+  right:40px;
+  top:80px;
+  background-color:rgb(210,232,255);
+}
+
+#times{
+  right:40px;
+  top:130px;
+  background-color:rgb(210,232,255);
+}
+
+#minus{
+  right:40px;
+  top:180px;
+  background-color:rgb(210,232,255);
+}
+
+#plus{
+  right:40px;
+  top:230px;
+  background-color:rgb(210,232,255);
+}
